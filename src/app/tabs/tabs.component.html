@@ -1,0 +1,14 @@
+<div>
+  <ul class="nav nav-tabs">
+    <li role="presentation"  routerLinkActive="active">
+      <a [routerLink]="'all'"  style="cursor: pointer">All</a>
+    </li>
+    <li role="presentation"  routerLinkActive="active">
+      <a [routerLink]="'light'"  style="cursor: pointer">Light</a>
+    </li>
+    <li role="presentation" routerLinkActive="active">
+      <a [routerLink]="'dark'" style="cursor: pointer">Dark</a>
+    </li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>
